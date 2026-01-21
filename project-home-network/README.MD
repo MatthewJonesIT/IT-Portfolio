@@ -23,3 +23,7 @@ As a result, smart home devices (Hive system / Google Home network) were unrelia
 - Difference between AP mode and extender mode
 - DHCP management in multi-device networks
 - Integrating wired, wireless, and IoT systems
+
+## Network Diagram
+
+![Home Network Diagram](project-home-network/home-network-diagram.png)
