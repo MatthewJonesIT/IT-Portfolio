@@ -9,6 +9,7 @@ As a result, the cameras could not be monitored either on the local network or r
 - Used Hikvision software to retrieve the encryption code from the DVR
 - Submitted the code to Hikvision support and received a new access code
 - Logged in to the DVR and configured cameras for local and remote viewing
+- Configured cameras to record only on motion detection to optimize storage usage
 
 ## Outcome
 - Full access restored to the DVR
