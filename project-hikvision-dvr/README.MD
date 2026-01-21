@@ -20,3 +20,6 @@ As a result, the cameras could not be monitored either on the local network or r
 - Working with vendor security workflows
 - Remote access configuration for networked devices
 - Practical experience integrating networked devices into an existing home network
+
+## Network Diagram
+![Home-DVR-Diagram](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/project-hikvision-dvr/dvr-access-diagram.jpg)
