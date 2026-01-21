@@ -22,3 +22,6 @@ Network performance needed to be optimised for smooth streaming.
 - Assigning static IPs to improve network reliability
 - Optimising device placement to reduce network performance issues
 - Deploying and configuring Plex for local and remote access
+
+## Network Diagram
+![Home-NAS-diagram](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/project-home-media-server/plex-nas-diagram.jpg)
