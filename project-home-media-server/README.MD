@@ -1,11 +1,11 @@
-# Terramaster NAS Setup for Plex Media Server
+# TerraMaster NAS Setup for Plex Media Server
 
 ## Problem
 Needed a reliable media server at home to stream content locally and remotely.  
 Network performance needed to be optimised for smooth streaming.
 
 ## Solution
-- Set up a Terramaster NAS as a Plex media server
+- Set up a TerraMaster NAS as a Plex media server
 - Assigned a static IP to ensure consistent network access
 - Connected the NAS directly to the router using Cat6 cable to minimise signal degradation
 - Configured NAS storage as JBOD rather than RAID, since no critical data is stored and flexibility for media expansion was preferred
