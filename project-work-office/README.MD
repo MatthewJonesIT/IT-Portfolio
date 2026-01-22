@@ -15,7 +15,7 @@ The VoIP phones required PoE, and the existing wall port supported PoE.
 - Preserved PoE functionality for phones while providing network connectivity to computers
 - Office now supports additional devices without extra cabling and allows for future expansion
 
-## What I Learned
+## What I Learnt
 - Practical use of PoE and passthrough functionality
 - Efficient network expansion using minimal infrastructure
 - Planning for scalability in small office networks
