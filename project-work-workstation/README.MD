@@ -14,7 +14,7 @@ Needed to provide a working PC for a new starter, but no fully operational works
 - New starter was able to begin work without delay
 - Avoided unnecessary hardware purchases by creatively using existing components
 
-## What I Learned
+## What I Learnt
 - Diagnosing and testing PC hardware components
 - Hands-on assembly and troubleshooting
 - Resourceful problem-solving in constrained environments
