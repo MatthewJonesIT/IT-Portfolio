@@ -15,7 +15,7 @@ As a result, the cameras could not be monitored either on the local network or r
 - Full access restored to the DVR
 - Cameras now accessible both locally and remotely
 
-## What I Learned
+## What I Learnt
 - Troubleshooting locked networked devices
 - Working with vendor security workflows
 - Remote access configuration for networked devices
