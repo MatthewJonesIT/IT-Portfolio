@@ -18,7 +18,7 @@ As a result, smart home devices (Hive system / Google Home network) were unrelia
 - Devices connect automatically to the strongest access point
 - Hive system now works correctly with Zigbee and Ethernet connectivity
 
-## What I Learned
+## What I Learnt
 - Network design and troubleshooting
 - Difference between AP mode and extender mode
 - DHCP management in multi-device networks
