@@ -17,7 +17,7 @@ Network performance needed to be optimised for smooth streaming.
 - Stable streaming performance with minimal buffering
 - NAS configured for future media expansion and streamlined file management
 
-## What I Learned
+## What I Learnt
 - Configuring networked storage devices for home use
 - Assigning static IPs to improve network reliability
 - Optimising device placement to reduce network performance issues
