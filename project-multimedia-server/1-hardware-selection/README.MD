@@ -6,7 +6,7 @@ The goal of this project is to design and deploy a self-hosted home media server
 
 - Video streaming: Plex
 - Music streaming: Navidrome
-- Mobile client: Symfonium
+- Mobile client: Symfonium (or any Subsonic capable streaming client)
 
 The system must:
 -Support up to 4 simultaneous Plex streams
