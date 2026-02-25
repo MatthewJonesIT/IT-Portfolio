@@ -9,12 +9,12 @@ The goal of this project is to design and deploy a self-hosted home media server
 - Mobile client: Symfonium (or any Subsonic capable streaming client)
 
 The system must:
--Support up to 4 simultaneous Plex streams
--Support hardware transcoding
--Run 24/7
--Maintain low power consumption
--Remain quiet and compact
--Integrate with existing NAS storage
+- Support up to 4 simultaneous Plex streams
+- Support hardware transcoding
+- Run 24/7
+- Maintain low power consumption
+- Remain quiet and compact
+- Integrate with existing NAS storage
 
 ## Current Environment & Limitations
 
