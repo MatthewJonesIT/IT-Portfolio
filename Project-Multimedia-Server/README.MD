@@ -1,4 +1,4 @@
-#Multimedia Server Project
+# Multimedia Server Project
 
 This repository documents the end-to-end design and deployment of a self-hosted multimedia server running Plex and Navidrome on Ubuntu Server.
 
