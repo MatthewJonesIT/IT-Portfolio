@@ -23,4 +23,4 @@ As a result, the cameras could not be monitored either on the local network or r
 - Understanding the security implications of exposing networked CCTV systems to the internet
 
 ## Network Diagram
-![Home-DVR-Diagram](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Home-Projects/Project-Hikvision-DVR/dvr-access-diagram.jpg?raw=true)
+![Home-DVR-Diagram](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Home-Projects/Project-Hikvision-DVR/dvr-access-diagram.jpg)
