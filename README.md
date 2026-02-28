@@ -47,5 +47,7 @@ Explore the project directories to see step-by-step guides, configurations and s
 ## Contact Me
 
 I'm always open to collaboration, mentorship and professional opportunities in IT.
-LinkedIn: [LinkedIn Profile] (https://www.linkedin.com/in/matthew-jones-36b7b42a8/)
+
+LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/matthew-jones-36b7b42a8/)
+
 Email: matthewljones4@gmail.com
