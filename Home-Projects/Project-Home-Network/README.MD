@@ -26,4 +26,4 @@ As a result, smart home devices (Hive system / Google Home network) were unrelia
 
 ## Network Diagram
 
-![Home Network Diagram](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/project-home-network/home-network-diagram.jpg)
+![Home Network Diagram](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Home-Projects/Project-Home-Network/home-network-diagram.jpg)
