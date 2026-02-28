@@ -22,4 +22,4 @@ The VoIP phones required PoE, and the existing wall port supported PoE.
 - Integration of VoIP devices and workstations in a constrained environment
 
 ## Network Diagram
-![Office VoIP PoE Diagram](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/project-work-office/office-voip-workstation-setup.jpg)
+![Office VoIP PoE Diagram](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Work-Projects/Project-Work-Office/office-voip-workstation-setup.jpg)
