@@ -6,7 +6,7 @@ The goal of this project is to design and deploy a self-hosted home media server
 
 - Video streaming: Plex
 - Music streaming: Navidrome
-- Mobile client: Symfonium (or any Subsonic capable streaming client)
+- Mobile client: Symfonium (or any Subsonic compatiable client)
 
 The system must:
 - Support up to 4 simultaneous Plex streams
@@ -49,7 +49,7 @@ Cons:
 - Would rely on software transcoding
 - Poor value relative to performance gains
 
-Decision: Rejected due to insufficient Plex performance.
+Decision: Rejected due to insufficient Plex transcoding capability.
 
 2️) Brand New Mini PC (e.g., Intel NUC)
 
@@ -127,7 +127,7 @@ I will deploy a headless installation of Ubuntu Server to:
 - Reduce resource overhead
 - Improve stability for 24/7 uptime
 - Enable SSH-based remote administration
-- Provide a clean foundation for containerized services (future enhancement)
+- Provide a clean foundation for containerised services (future enhancement)
 
 After initial configuration, the server will operate entirely via SSH from my primary workstation.
 
