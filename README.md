@@ -42,7 +42,7 @@ This repository isn't just about following tutorials, it's about thinking like a
 
 ## Getting Started
 
-Explore the project directories to see step-by-step guides, configurations and scripts I've developed. Each project includes a README with detailed explanations to demonstrate practival IT skills and professional problem-solving approaches.
+Explore the project directories to see step-by-step guides, configurations and scripts I've developed. Each project includes a README with detailed explanations to demonstrate practical IT skills and professional problem-solving approaches.
 
 ## Contact Me
 
