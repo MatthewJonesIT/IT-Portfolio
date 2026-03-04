@@ -38,8 +38,10 @@ Key steps included:
 1) Drive Verification:
 - 128GB M.2 SSD correctly recognised
 - 1000GB 2.5" HDD correctly recognised
+
 2) Intel Quick Sync Activation:
 Intel Quick Sync was enabled in the BIOS. This will allow hardware-accelerated transcoding in Plex, reducing CPU load for video streaming.
+
 3) Other Checks:
 - Gigabit Ethernet detected
 - Default boot order verified for planned OS installation via USB
