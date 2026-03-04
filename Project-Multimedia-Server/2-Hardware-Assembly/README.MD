@@ -7,9 +7,12 @@ This section documents the unboxing, initial inspection, and setup of the Dell O
 ## Unboxing & initial Impressions
 
 ![Unboxing](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Project-Multimedia-Server/2-Hardware-Assembly/01.jpeg)
+
 The Dell OptiPlex 3060 Micro arrived as a compact, enterprise-grade system. Its small footprint is ideal for a quiet, 24/7 home server setup.
 The case features a tool-less design, secured with a single thumb screw on the top panel. Removing the panel exposes the internal components, allowing easy access to the storage bays and M.2 slots.
+
 ![Top Off Case](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Project-Multimedia-Server/2-Hardware-Assembly/02.jpeg)
+
 One of the M.2 slots was occupied by a drive, the other was empty but labelled for WLAN which could open the doors for interesting projects in the future.
 
 ##Storage Inspection & Installation
@@ -20,9 +23,11 @@ Existing Configuration:
 
 Installation
 A 2.5" SATA HDD was installed into the empty bay without requiring tools. The drive will later host the Navidrome music library and serve as an incremental backup target for the primary workstation music library.
+
 ![HDD](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Project-Multimedia-Server/2-Hardware-Assembly/03.jpeg)
 ![HDD In Tray](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Project-Multimedia-Server/2-Hardware-Assembly/04.jpeg)
 ![Assembled Machine](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Project-Multimedia-Server/2-Hardware-Assembly/05.jpeg)
+
 The case was then reassembled ready for the initial boot.
 
 ## Initial BIOS Configuration
@@ -38,6 +43,7 @@ Intel Quick Sync was enabled in the BIOS. This will allow hardware-accelerated t
 3) Other Checks:
 - Gigabit Ethernet detected
 - Default boot order verified for planned OS installation via USB
+
 ![BIOS](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Project-Multimedia-Server/2-Hardware-Assembly/06.jpeg)
 
 ## Summary
