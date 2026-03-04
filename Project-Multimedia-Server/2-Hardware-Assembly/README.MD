@@ -15,7 +15,7 @@ The case features a tool-less design, secured with a single thumb screw on the t
 
 One of the M.2 slots was occupied by a drive, the other was empty but labelled for WLAN which could open the doors for interesting projects in the future.
 
-##Storage Inspection & Installation
+## Storage Inspection & Installation
 
 Existing Configuration:
 - M.2 Slot: Occupied by a 128GB SSD (planned as OS drive)
