@@ -31,6 +31,8 @@ During the boot up process, F12 was repeatedly pressed to bring up the boot orde
 
 Once booted into the Ubuntu installer, the OS installation process began.
 
+![OS Install](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Project-Multimedia-Server/3-OS-Install/1.jpeg)
+
 ## Storage Configuration
 
 - 128GB M.2 SSD - Operating System
@@ -54,7 +56,7 @@ One of the final steps during installation is assigning a hostname to the system
 
 The server was named...
 
-Benxaiten
+Benzaiten
 
 This name comes from Benzaiten, the Japanese Lucky God of art, music, and things that flow. Given the server's purpose as a multimedia streaming platform, the name felt particularly fitting.
 
@@ -64,6 +66,8 @@ Following this naming convention, the NAS used for file storage (including the m
 
 After completing the installation, the system was booted for the first time and logged into using the user account created during setup.
 
+![OS First Boot](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Project-Multimedia-Server/3-OS-Install/2.jpeg)
+
 The first step was to update the operating system and installed packages.
 
 To do this, the following commands were run:
@@ -72,6 +76,8 @@ To do this, the following commands were run:
 - "sudo apt upgrade -y"
 
 This ensures the server is running the most recent security patches and package versions.
+
+![OS Update](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Project-Multimedia-Server/3-OS-Install/3.jpeg)
 
 ## Installing and Enabling SSH
 
@@ -96,6 +102,8 @@ Using Command Prompt with elevated permissions on the main workstation, a connec
 - "ssh matt@192.168.0.26"
 
 After entering the account password, the login was successful, confirming that the server could now be managed remotely. 
+
+![Remote Access}(https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Project-Multimedia-Server/3-OS-Install/4.png)
 
 From this point onward, the server can be administered entirely vis SSH without needing a dedicated monitor or keyboard connected.
 
