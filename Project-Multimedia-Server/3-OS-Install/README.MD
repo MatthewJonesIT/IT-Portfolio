@@ -1,4 +1,4 @@
-# Operating SYstem Installation & Initial Configuration
+# Operating System Installation & Initial Configuration
 
 ## Objective
 
