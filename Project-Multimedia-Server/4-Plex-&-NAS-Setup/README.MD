@@ -141,7 +141,7 @@ This solution is temporary and will later be replaced by a reverse proxy configu
 
 One of the main reasons for swapping over from the NAS server to this dedicated server was performance, namely hardware transcoding.
 
-Using the Plex web interface, hardware transcoding was enabled in the settings, then a test encode was attempted.
+Using the Plex web interface, hardware transcoding was enabled in the settings, then a test transcode was attempted.
 
 The goal is to see (hw) after the transcoding marker when steaming at a different resolution or codec to the original media.
 
