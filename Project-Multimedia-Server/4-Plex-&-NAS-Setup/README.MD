@@ -48,6 +48,10 @@ Instead, the existing structure was preserved and the NAS directories were mount
 
 Certain options had to be enabled on the NAS first to allow the shares to be accessed by the server, including enabling the SMB/CIFS file service, allowing the server IP to access the files and turning the folder into a shared folder.
 
+![SMB](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Project-Multimedia-Server/4-Plex-%26-NAS-Setup/1.png)
+
+![IP](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Project-Multimedia-Server/4-Plex-%26-NAS-Setup/2.png)
+
 ## Installing CIFS Utilites
 
 To mount SMB shares on Linux, the CIFS utilites package must first be installed.
@@ -119,6 +123,8 @@ This successfully mounted the NAS share, making the media directories accessible
 
 Plex was then able to detect the mounted directories and create the required media libraries.
 
+![Drive](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Project-Multimedia-Server/4-Plex-%26-NAS-Setup/3.png)
+
 ## Remote Access Issue
 
 Although Plex was working correctly on the local network, the server was not accessible remotely. 
@@ -130,6 +136,8 @@ Both the original NAS-based Plex server and the new server were attempting to us
 Because the port was already in use by the NAS server, the new server was reconfigured to use a different port.
 
 The Plex server port was changed to 32401. The router was then configured to forward port 32401 to the new server, allowing external access.
+
+![Port](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Project-Multimedia-Server/4-Plex-%26-NAS-Setup/4.png)
 
 This solution is temporary and will later be replaced by a reverse proxy configuration using Caddy, which will provide:
 
@@ -144,6 +152,8 @@ One of the main reasons for swapping over from the NAS server to this dedicated 
 Using the Plex web interface, hardware transcoding was enabled in the settings, then a test transcode was attempted.
 
 The goal is to see (hw) after the transcoding marker when steaming at a different resolution or codec to the original media.
+
+![Test](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Project-Multimedia-Server/4-Plex-%26-NAS-Setup/5.png)
 
 This was shown to be working without anymore configuration, providing a substantial performance increase compared to the previous NAS-based server.
 ## Summary
