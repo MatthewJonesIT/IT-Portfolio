@@ -101,8 +101,7 @@ A credentials file was created in the root directory:
 
 The file contains the NAS login credentials:
 
-"username=xxxxxxx
-password=xxxxxxx"
+![Login](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Project-Multimedia-Server/4-Plex-%26-NAS-Setup/6.png)
 
 To protect the credentials, permissions were restricted so only the root user can read the file.
 
@@ -114,6 +113,8 @@ The fstab entry was then modified to reference the credentials file instead of e
 
 "# NAS Media
 //192.168.0.251/Volume#1/User/admin/home/ /mnt/nas/media cifs credentials=/root/.nas-credentials,iocharset=utf8,_netdev,file_mode=0775,dir_mode=0755 0 0"
+
+![fstab](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Project-Multimedia-Server/4-Plex-%26-NAS-Setup/7.png)
 
 The configurateion was tested using:
 
