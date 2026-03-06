@@ -19,7 +19,7 @@ Plex Media Server was installed using the .deb package provided on the official 
 
 Installation was performed using:
 
-"sudo dpkg -i plexmediaserver_1.19.4.2935-79e214ead_amd64.deb"
+- "sudo dpkg -i plexmediaserver_1.19.4.2935-79e214ead_amd64.deb"
 
 Once installed, Plex automatically starts its background service and opens port 32400, which hosts the PLex web interface.
 
@@ -52,7 +52,7 @@ Certain options had to be enabled on the NAS first to allow the shares to be acc
 
 To mount SMB shares on Linux, the CIFS utilites package must first be installed.
 
-"sudo apt install cifs-utils -y"
+- "sudo apt install cifs-utils -y"
 
 This package provides the tools required for mounting Windows/SMB network shares.
 
@@ -60,7 +60,7 @@ This package provides the tools required for mounting Windows/SMB network shares
 
 A directory was created to serve as the mount location for the NAS share.
 
-"sudo mkdir -p /mnt/share/media"
+- "sudo mkdir -p /mnt/share/media"
 
 This directory will act as the entry point where the NAS media storage becomes accessible within the Linux filesystem.
 
@@ -68,7 +68,7 @@ This directory will act as the entry point where the NAS media storage becomes a
 
 To ensure the NAS share mounts automatically at boot, an entry was added to the filesystem table (fstab).
 
-"sudo nano /etc/fstab"
+- "sudo nano /etc/fstab"
 
 The following entry was initially added:
 
@@ -77,7 +77,7 @@ The following entry was initially added:
 
 However, when attempting to mount the share the system returned the following error:
 
-"cifs_mount failed w/return code= -13"
+- "cifs_mount failed w/return code= -13"
 
 This error indicates that the NAS is denying authentication.
 
@@ -93,7 +93,7 @@ To resolve this, a seperate credential file was created.
 
 A credentials file was created in the root directory:
 
-"sudo nano /root/.nas-credentials"
+- "sudo nano /root/.nas-credentials"
 
 The file contains the NAS login credentials:
 
@@ -102,7 +102,7 @@ password=xxxxxxx"
 
 To protect the credentials, permissions were restricted so only the root user can read the file.
 
-"sudo chmod 600 /root/.nas-credentials"
+- "sudo chmod 600 /root/.nas-credentials"
 
 ## Updating fstab to Use the Credentials File
 
@@ -113,7 +113,7 @@ The fstab entry was then modified to reference the credentials file instead of e
 
 The configurateion was tested using:
 
-"sudo mount -a"
+- "sudo mount -a"
 
 This successfully mounted the NAS share, making the media directories accessible from the server.
 
