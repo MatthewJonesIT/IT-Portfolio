@@ -21,7 +21,7 @@ Installation was performed using:
 
 - "sudo dpkg -i plexmediaserver_1.19.4.2935-79e214ead_amd64.deb"
 
-Once installed, Plex automatically starts its background service and opens port 32400, which hosts the PLex web interface.
+Once installed, Plex automatically starts its background service and opens port 32400, which hosts the Plex web interface.
 
 The setup page can then be accessed via 192.168.0.26:32400/web
 
