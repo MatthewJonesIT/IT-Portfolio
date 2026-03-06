@@ -56,7 +56,7 @@ To mount SMB shares on Linux, the CIFS utilites package must first be installed.
 
 This package provides the tools required for mounting Windows/SMB network shares.
 
-##Creating a Mount Point
+## Creating a Mount Point
 
 A directory was created to serve as the mount location for the NAS share.
 
