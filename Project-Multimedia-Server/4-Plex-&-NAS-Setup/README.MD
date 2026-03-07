@@ -116,7 +116,7 @@ The fstab entry was then modified to reference the credentials file instead of e
 
 ![fstab](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Project-Multimedia-Server/4-Plex-%26-NAS-Setup/7.png)
 
-The configurateion was tested using:
+The configuration was tested using:
 
 - "sudo mount -a"
 
