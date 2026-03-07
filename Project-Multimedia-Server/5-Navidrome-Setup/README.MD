@@ -134,7 +134,7 @@ The first incremental backup was performed using:
 
 - "rsync -av --update /mnt/windows_music /home/matt/Music"
 
-This successfully transfered the music library to the server.
+This successfully transferred the music library to the server.
 
 ## Automating the Backup Process
 
