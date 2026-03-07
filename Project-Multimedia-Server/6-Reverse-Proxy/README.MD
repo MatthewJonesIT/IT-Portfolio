@@ -107,7 +107,6 @@ After updating the configuration file, Caddy must be reloaded:
 
 This applies the configuration without restarting the service.
 
-T
 
 ## Result
 
