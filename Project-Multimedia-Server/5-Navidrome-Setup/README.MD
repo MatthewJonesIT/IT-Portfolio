@@ -79,7 +79,7 @@ To allow the server to access the workstation, OpenSSH Server was installed on W
 
 ![SSHServer](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Project-Multimedia-Server/5-Navidrome-Setup/3.png)
 
-Port 22 then needed to be opned in the Windows firewall.
+Port 22 then needed to be opened in the Windows firewall.
 
 The following command was ran in an elevated PowerShell window:
 
