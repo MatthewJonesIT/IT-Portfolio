@@ -2,7 +2,7 @@
 
 ## Objective
 
-This stage focuses on depoloying Navidrome, a lightweight self-hosted music streaming server, and configuring an automated process to synchronise the music library from the primary workstation.
+This stage focuses on deploying Navidrome, a lightweight self-hosted music streaming server, and configuring an automated process to synchronise the music library from the primary workstation.
 
 By the end of this stage the system will:
 
