@@ -49,7 +49,7 @@ On the Windows workstation, the Map Network Drive feature was used.
 
 The share was mapped as the B: drive using:
 
-- \\192.168.0.26\Music
+- \\\192.168.0.26\Music
 
 ![Windows](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Project-Multimedia-Server/5-Navidrome-Setup/2.png)
 
