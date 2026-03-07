@@ -87,7 +87,7 @@ The following command was ran in an elevated PowerShell window:
 
 This was then checked in the Windows Defender Firewall with Advanced Settings applet in the Inbound Rules section to make sure it was implemented.
 
-![Firewall}(https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Project-Multimedia-Server/5-Navidrome-Setup/4.png)
+![Firewall](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Project-Multimedia-Server/5-Navidrome-Setup/4.png)
 
 The SSH service was then started in the PowerShell window and configured to launch automatically on startup with the following commands.
 
