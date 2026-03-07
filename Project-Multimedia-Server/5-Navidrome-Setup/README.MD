@@ -126,7 +126,7 @@ To verify the mount:
 
 The command displayed the full file structure of the workstation music folder, confirming the mount was successful.
 
-![Files}(https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Project-Multimedia-Server/5-Navidrome-Setup/7.png)
+![Files](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Project-Multimedia-Server/5-Navidrome-Setup/7.png)
 
 ## Performing the Initial Sync
 
