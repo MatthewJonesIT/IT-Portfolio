@@ -180,7 +180,7 @@ The script was automating using cron.
 
 - "sudo crontab -e"
 
-The follwoing entry was added.
+The following entry was added.
 
 ![Cron](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Project-Multimedia-Server/5-Navidrome-Setup/11.png)
 
