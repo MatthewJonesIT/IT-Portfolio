@@ -45,7 +45,15 @@ Update the package list again and install Caddy.
 - "sudo apt update"
 - "sudo apt install caddy"
 
+![Caddy](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Project-Multimedia-Server/6-Reverse-Proxy/04.png)
+
 Once installed, the Caddy service is automatically enabled and running.
+
+This can be tested using:
+
+- "sudo systemctl status caddy"
+
+![status](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Project-Multimedia-Server/6-Reverse-Proxy/05.png)
 
 ## Preparing External Access
 
@@ -64,6 +72,8 @@ During configuration, it was discovered that the CCTV DVR on the network had aut
 
 Since the DVR did not require these ports, and automatic port forwarding can present security risks, UPnP was disabled on the router and the ports were manually forwarded to the server instead.
 
+![Ports](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Project-Multimedia-Server/6-Reverse-Proxy/03.png)
+
 ## Configuring the Caddy Reverse Proxy
 
 Caddy uses a configuration file called the Caddyfile.
@@ -76,10 +86,12 @@ The configuration file was edited using:
 
 The file was then setup to forward the traffic to the correct ports from the public addresses.
 
+![Nano](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Project-Multimedia-Server/6-Reverse-Proxy/06.png)
+
 In this configuration:
 
-- Requests to XXXXXX.duckdns.org are forwarded to Navidrome
-- Requests to plex.XXXXXX.duckdns.org are forwarded to Plex.
+- Requests to matify.duckdns.org are forwarded to Navidrome
+- Requests to plex.matify.duckdns.org are forwarded to Plex.
 
 Caddy automatically handles:
 
@@ -94,6 +106,8 @@ After updating the configuration file, Caddy must be reloaded:
 - "sudo systemctl reload caddy"
 
 This applies the configuration without restarting the service.
+
+T
 
 ## Result
 
