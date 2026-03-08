@@ -27,6 +27,8 @@ Two blanket rules were added to close all incoming and open all outgoing ports.
 - "sudo ufw default deny incoming"
 - "sudo ufw default allow outgoing"
 
+![Default](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Project-Multimedia-Server/7-Security-%26-Maintenance/1.png)
+
 Next, specific ports were allowed to enable server services.
 
 - "sudo ufw allow 22/tcp"
@@ -39,11 +41,15 @@ Logging was then enabled.
 
 - "sudo ufw logging on"
 
+![Rules](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Project-Multimedia-Server/7-Security-%26-Maintenance/2.png)
+
 Finally, the firewall was activated
 
 - "sudo ufw enable"
 
 Because TCP port was explicitly allowed, the SSH connection remained stable and uninterrupted when the firewall was enabled. 
+
+![Enable](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Project-Multimedia-Server/7-Security-%26-Maintenance/3.png)
 
 ## Automatic System Updates
 
@@ -59,7 +65,11 @@ To configure unattended upgrades to enable automatic updates, the following comm
 
 - "sudo dpkg-reconfigure --priority=low unattended-upgrades"
 
+![Up](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Project-Multimedia-Server/7-Security-%26-Maintenance/4.png)
+
 This prompts a configuration screen where automatic upgrades can be enabled. Once activated, Ubuntu security updates will install automatically.
+
+![Access](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Project-Multimedia-Server/7-Security-%26-Maintenance/5.png)
 
 ## Automatic Plex Updates
 
@@ -78,6 +88,8 @@ Now it is executable, the script can be ran.
 - "sudo ./setupRepo.sh"
 
 This script replaces the previous .deb installation with a repository-based installation that can receive automatic updates.
+
+![Plex](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Project-Multimedia-Server/7-Security-%26-Maintenance/6.png)
 
 ## Configure Repository Preferences
 
@@ -103,6 +115,8 @@ Now that this has been verified, the package list can be updated to see if Plex 
 - "sudo apt update"
 
 Plex now appears in the update list, ensuring it will receive automatic updates alongside Ubuntu security patches. 
+
+![Final](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Project-Multimedia-Server/7-Security-%26-Maintenance/7.png)
 
 ## Summary
 
