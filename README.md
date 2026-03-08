@@ -26,7 +26,7 @@ Projects completed in a personal/home enviroment, demonstarting self-driven IT s
   
 Projects completed in a professional or office context
 
-- Majpr Multi-Part Projects
+- Major Multi-Part Projects
   
 Complex projects that are broken into multiple subfolders with their own documentation.
 Each multi-part oroject includes detailed step-by-step guides, reasoning for technical decisions, and practical implementation notes. This structure allows for clear understanding of both overall architecture and specific technical tasks.
