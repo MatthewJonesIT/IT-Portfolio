@@ -43,6 +43,13 @@ Logging was then enabled.
 
 ![Rules](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Project-Multimedia-Server/7-Security-%26-Maintenance/2.png)
 
+Some local firewall rules were then added to allow devices on the same subnet access the ports for the services directly.
+
+- "sudo ufw allow from 192.168.0.0/24 to any port 32401 proto tcp"
+- "sudo ufw allow from 192.168.0.0/24 to any port 4533 proto tcp"
+
+![Local](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Project-Multimedia-Server/7-Security-%26-Maintenance/8.png)
+
 Finally, the firewall was activated
 
 - "sudo ufw enable"
