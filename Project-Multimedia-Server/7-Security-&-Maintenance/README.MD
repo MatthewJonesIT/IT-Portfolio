@@ -47,7 +47,7 @@ Finally, the firewall was activated
 
 - "sudo ufw enable"
 
-Because TCP port was explicitly allowed, the SSH connection remained stable and uninterrupted when the firewall was enabled. 
+Because TCP port 22 was explicitly allowed, the SSH connection remained stable and uninterrupted when the firewall was enabled. 
 
 ![Enable](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Project-Multimedia-Server/7-Security-%26-Maintenance/3.png)
 
