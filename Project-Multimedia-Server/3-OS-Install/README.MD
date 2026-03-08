@@ -105,7 +105,7 @@ After entering the account password, the login was successful, confirming that t
 
 ![Remote Access](https://github.com/MatthewJonesIT/IT-Portfolio/blob/main/Project-Multimedia-Server/3-OS-Install/4.png)
 
-From this point onward, the server can be administered entirely vis SSH without needing a dedicated monitor or keyboard connected.
+From this point onward, the server can be administered entirely via SSH without needing a dedicated monitor or keyboard connected.
 
 ## Summary
 
