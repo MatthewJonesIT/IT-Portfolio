@@ -2,7 +2,7 @@
 
 ## Objective
 
-This stage focuses on configuring Caddy as a reverse proxy to expose the internal services securely over the inetner.
+This stage focuses on configuring Caddy as a reverse proxy to expose the internal services securely over the internet.
 
 Instead of forwarding multiple service ports externally, Caddy listens on the standard web ports:
 
