@@ -29,7 +29,7 @@ Projects completed in a professional or office context
 - Major Multi-Part Projects
   
 Complex projects that are broken into multiple subfolders with their own documentation.
-Each multi-part oroject includes detailed step-by-step guides, reasoning for technical decisions, and practical implementation notes. This structure allows for clear understanding of both overall architecture and specific technical tasks.
+Each multi-part project includes detailed step-by-step guides, reasoning for technical decisions, and practical implementation notes. This structure allows for clear understanding of both overall architecture and specific technical tasks.
 
 ## Why This Portfolio Matters
 
