@@ -61,7 +61,7 @@ Before configuring the reverse proxy, a public domain name was required.
 
 For this project, a free dynamic DNS service was used.
 
-A hostname was created using DuckDNS, which point a domain name to the server's public IPv4 address.
+A hostname was created using DuckDNS, which points a domain name to the server's public IPv4 address.
 
 The router was then configured to forward the following ports to the server:
 
